@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.transcript-editor {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.play-button {
+  background-color: #16a34a; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.transcript {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.transcript-word {
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+  color: white; 
+  text-align: center;
+}
+
+.transcript-word.highlight {
+  background-color: #fbbf24;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+
+.transcript-word[contenteditable="true"]:focus {
+  outline: 2px dashed #3b82f6;
+}
+body{
+  background-color: black;
+}
+h1 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: white; 
+  text-align: center;
+}
